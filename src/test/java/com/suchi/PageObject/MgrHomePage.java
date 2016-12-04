@@ -4,6 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import com.suchi.UtilPage.WebUtil;
+
 import junit.framework.Assert;
 
 public class MgrHomePage {
@@ -24,8 +26,7 @@ public class MgrHomePage {
 	}
 
 	public void clickLogOut(WebDriver driver) {
-		WebElement LogOutLink = driver.findElement(By.linkText("Log out"));
-		LogOutLink.click();
+		WebUtil.clickElement(driver,By.linkText("Log out"));
 		
 	}
 

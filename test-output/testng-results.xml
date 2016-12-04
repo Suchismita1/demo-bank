@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15192" started-at="2016-12-03T10:43:14Z" finished-at="2016-12-03T10:43:29Z">
+  <suite name="Default suite" duration-ms="14450" started-at="2016-12-04T09:17:46Z" finished-at="2016-12-04T09:18:00Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15192" started-at="2016-12-03T10:43:14Z" finished-at="2016-12-03T10:43:29Z">
+    <test name="Default test" duration-ms="14450" started-at="2016-12-04T09:17:46Z" finished-at="2016-12-04T09:18:00Z">
       <class name="com.suchi.demo_bank.Login_Page_Test">
-        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.suchi.demo_bank.Login_Page_Test@1d057a39]" name="setupTest" is-config="true" duration-ms="5568" started-at="2016-12-03T16:13:14Z" finished-at="2016-12-03T16:13:19Z">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.suchi.demo_bank.Login_Page_Test@1d057a39]" name="setupTest" is-config="true" duration-ms="5243" started-at="2016-12-04T14:47:46Z" finished-at="2016-12-04T14:47:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method status="PASS" signature="setupClass()[pri:0, instance:com.suchi.demo_bank.Login_Page_Test@1d057a39]" name="setupClass" is-config="true" duration-ms="889" started-at="2016-12-03T16:13:19Z" finished-at="2016-12-03T16:13:20Z">
+        <test-method status="PASS" signature="setupClass()[pri:0, instance:com.suchi.demo_bank.Login_Page_Test@1d057a39]" name="setupClass" is-config="true" duration-ms="804" started-at="2016-12-04T14:47:51Z" finished-at="2016-12-04T14:47:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupClass -->
-        <test-method status="PASS" signature="BankLoginTest()[pri:0, instance:com.suchi.demo_bank.Login_Page_Test@1d057a39]" name="BankLoginTest" duration-ms="6347" started-at="2016-12-03T16:13:20Z" finished-at="2016-12-03T16:13:26Z">
+        <test-method status="PASS" signature="BankLoginTest()[pri:0, instance:com.suchi.demo_bank.Login_Page_Test@1d057a39]" name="BankLoginTest" duration-ms="6057" started-at="2016-12-04T14:47:52Z" finished-at="2016-12-04T14:47:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BankLoginTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.suchi.demo_bank.Login_Page_Test@1d057a39]" name="teardown" is-config="true" duration-ms="2363" started-at="2016-12-03T16:13:26Z" finished-at="2016-12-03T16:13:29Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.suchi.demo_bank.Login_Page_Test@1d057a39]" name="teardown" is-config="true" duration-ms="2324" started-at="2016-12-04T14:47:58Z" finished-at="2016-12-04T14:48:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
