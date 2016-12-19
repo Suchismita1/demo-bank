@@ -8,9 +8,25 @@ import org.openqa.selenium.support.PageFactory;
 import com.suchi.PageObject.SignInPage;
 
 public class WebUtil {
+	
+	// Setting Base URL
+	public static final String BASE_URL = "http://www.demo.guru99.com/";
+	    
+	// Time to wait when searching for a GUI element 
+	public static final int WAIT_TIME = 30; 
+												
+	// Valid account for login
+	public static final String USER_NAME = "mngr55876";
+	public static final String PASSWD = "EbujYhE";
+	
+	// Expected output
+    public static final String EXPECT_TITLE = "Guru99 Bank Manager HomePage";
+    public static final String EXPECT_ERROR = "User or Password is not valid";
+
 
 	public static SignInPage gotoSigninPage(WebDriver driver) {
-		driver.get("http://www.demo.guru99.com/V4/");
+		driver.get(BASE_URL + "/V4/");
+		//driver.get("http://www.demo.guru99.com/V4/");
 		return PageFactory.initElements(driver, SignInPage.class);
 	}
 
