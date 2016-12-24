@@ -1,52 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]">
-  <parameter name="userId" value="mngr55876"/>
-  <parameter name="Password" value="EbujYhj"/>
-  <test name="Test2(failed)">
-    <parameter name="userId" value="mngr55878"/>
-    <parameter name="Password" value="EbujYhE"/>
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
       <class name="com.suchi.demo_bank.Login_Page_Test">
         <methods>
           <include name="setupTest"/>
-          <include name="setupTest"/>
-          <include name="setupTest"/>
-          <include name="setupTest"/>
-          <include name="teardown"/>
-          <include name="teardown"/>
-          <include name="teardown"/>
           <include name="teardown"/>
           <include name="setupClass"/>
-          <include name="setupClass"/>
-          <include name="setupClass"/>
-          <include name="setupClass"/>
-          <include name="BankLoginTest" invocation-numbers="0"/>
+          <include name="BankLoginTest" invocation-numbers="1"/>
         </methods>
       </class> <!-- com.suchi.demo_bank.Login_Page_Test -->
     </classes>
-  </test> <!-- Test2(failed) -->
-  <test name="Test4(failed)">
-    <parameter name="userId" value="mngr55876"/>
-    <parameter name="Password" value="EbujYhj"/>
-    <classes>
-      <class name="com.suchi.demo_bank.Login_Page_Test">
-        <methods>
-          <include name="setupTest"/>
-          <include name="setupTest"/>
-          <include name="setupTest"/>
-          <include name="setupTest"/>
-          <include name="teardown"/>
-          <include name="teardown"/>
-          <include name="teardown"/>
-          <include name="teardown"/>
-          <include name="setupClass"/>
-          <include name="setupClass"/>
-          <include name="setupClass"/>
-          <include name="setupClass"/>
-          <include name="BankLoginTest" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- com.suchi.demo_bank.Login_Page_Test -->
-    </classes>
-  </test> <!-- Test4(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

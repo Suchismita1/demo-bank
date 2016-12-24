@@ -9,6 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -28,14 +29,20 @@ public class Login_Page_Test {
     }
 	@BeforeTest
 	 public void setupTest() {
-		ChromeDriverManager.getInstance().setup();
+	    ChromeDriverManager.getInstance().setup();
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(WebUtil.WAIT_TIME, TimeUnit.SECONDS);
         driver.manage().window().maximize();
     }
 	
-	@Parameters({"userId","Password"})
-	@Test
+	@DataProvider(name="TestDataInput")
+	public Object[][] testData() throws Exception {
+		return new Object[][]{{"mngr55876","EbujYhE"},{"mngr5580","EbujYhE"},{"mngr55876","EbujYhE"}};
+		//return WebUtil.getDataFromExcel(WebUtil.FILE_PATH, WebUtil.SHEET_NAME);
+	}
+	
+	//@Parameters({"userId","Password"})
+	@Test(dataProvider="TestDataInput")
 	public void BankLoginTest(String userId, String Password)
 	{
 		//Goto to the bank url

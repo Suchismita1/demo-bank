@@ -8,7 +8,7 @@
           <include name="setupTest"/>
           <include name="teardown"/>
           <include name="setupClass"/>
-          <include name="BankLoginTest"/>
+          <include name="BankLoginTest" invocation-numbers="1"/>
         </methods>
       </class> <!-- com.suchi.demo_bank.Login_Page_Test -->
     </classes>
