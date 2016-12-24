@@ -10,7 +10,7 @@ import junit.framework.Assert;
 
 public class MgrHomePage {
 
-	public void verifyBankHomePage(WebDriver driver) {
+	public void verifyBankHomePage(WebDriver driver,String UserId) {
 		// Verify Page Title
 		String PageTitle = driver.getTitle();
 		Assert.assertEquals("Guru99 Bank Manager HomePage", PageTitle);
@@ -21,7 +21,7 @@ public class MgrHomePage {
 		
 		//Verify Manager id
 		WebElement mngID = driver.findElement(By.cssSelector("body > table > tbody > tr > td > table > tbody > tr.heading3 > td"));
-		Assert.assertEquals("Manger Id : mngr55876", mngID.getText());
+		Assert.assertEquals("Manger Id : "+UserId, mngID.getText());
 		
 	}
 

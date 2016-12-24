@@ -33,6 +33,8 @@ public class SignInPage {
 		    
 	       	Alert alt = driver.switchTo().alert();
 			actualBoxtitle = alt.getText(); // get content of the Alter Message
+			//WebUtil.getScreenShot(driver);
+			//Thread.sleep(5000);
 			alt.accept();
 			if (actualBoxtitle.contains(WebUtil.EXPECT_ERROR)) { // Compare Error Text with Expected Error Value
 			    System.out.println(" Failed"); 

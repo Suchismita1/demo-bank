@@ -61,7 +61,7 @@ public class Login_Page_Test {
 		MgrHomePage mgrhome = signInpage.clickLoginButton(driver,userId,Password);				
 		//Verify the bank home page
 		
-		mgrhome.verifyBankHomePage(driver);
+		mgrhome.verifyBankHomePage(driver,userId);
 				
 		//Click Logout 
 		mgrhome.clickLogOut(driver);

@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="1" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19886" started-at="2016-12-24T13:09:09Z" finished-at="2016-12-24T13:09:29Z">
+  <suite name="Default suite" duration-ms="23419" started-at="2016-12-24T15:07:33Z" finished-at="2016-12-24T15:07:57Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19886" started-at="2016-12-24T13:09:09Z" finished-at="2016-12-24T13:09:29Z">
+    <test name="Default test" duration-ms="23419" started-at="2016-12-24T15:07:33Z" finished-at="2016-12-24T15:07:57Z">
       <class name="com.suchi.demo_bank.Login_Page_Test">
-        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.suchi.demo_bank.Login_Page_Test@ae45eb6]" name="setupTest" is-config="true" duration-ms="5823" started-at="2016-12-24T18:39:09Z" finished-at="2016-12-24T18:39:15Z">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.suchi.demo_bank.Login_Page_Test@ae45eb6]" name="setupTest" is-config="true" duration-ms="6113" started-at="2016-12-24T20:37:33Z" finished-at="2016-12-24T20:37:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method status="PASS" signature="setupClass()[pri:0, instance:com.suchi.demo_bank.Login_Page_Test@ae45eb6]" name="setupClass" is-config="true" duration-ms="830" started-at="2016-12-24T18:39:15Z" finished-at="2016-12-24T18:39:16Z">
+        <test-method status="PASS" signature="setupClass()[pri:0, instance:com.suchi.demo_bank.Login_Page_Test@ae45eb6]" name="setupClass" is-config="true" duration-ms="837" started-at="2016-12-24T20:37:39Z" finished-at="2016-12-24T20:37:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupClass -->
-        <test-method status="PASS" signature="BankLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.suchi.demo_bank.Login_Page_Test@ae45eb6]" name="BankLoginTest" duration-ms="4821" started-at="2016-12-24T18:39:16Z" data-provider="TestDataInput" finished-at="2016-12-24T18:39:21Z">
+        <test-method status="PASS" signature="BankLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.suchi.demo_bank.Login_Page_Test@ae45eb6]" name="BankLoginTest" duration-ms="7160" started-at="2016-12-24T20:37:40Z" data-provider="TestDataInput" finished-at="2016-12-24T20:37:47Z">
           <params>
             <param index="0">
               <value>
@@ -31,7 +31,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BankLoginTest -->
-        <test-method status="FAIL" signature="BankLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.suchi.demo_bank.Login_Page_Test@ae45eb6]" name="BankLoginTest" duration-ms="2333" started-at="2016-12-24T18:39:21Z" data-provider="TestDataInput" finished-at="2016-12-24T18:39:23Z">
+        <test-method status="FAIL" signature="BankLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.suchi.demo_bank.Login_Page_Test@ae45eb6]" name="BankLoginTest" duration-ms="2431" started-at="2016-12-24T20:37:47Z" data-provider="TestDataInput" finished-at="2016-12-24T20:37:50Z">
           <params>
             <param index="0">
               <value>
@@ -84,7 +84,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BankLoginTest -->
-        <test-method status="PASS" signature="BankLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.suchi.demo_bank.Login_Page_Test@ae45eb6]" name="BankLoginTest" duration-ms="3702" started-at="2016-12-24T18:39:23Z" data-provider="TestDataInput" finished-at="2016-12-24T18:39:27Z">
+        <test-method status="PASS" signature="BankLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.suchi.demo_bank.Login_Page_Test@ae45eb6]" name="BankLoginTest" duration-ms="4531" started-at="2016-12-24T20:37:50Z" data-provider="TestDataInput" finished-at="2016-12-24T20:37:54Z">
           <params>
             <param index="0">
               <value>
@@ -100,7 +100,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BankLoginTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.suchi.demo_bank.Login_Page_Test@ae45eb6]" name="teardown" is-config="true" duration-ms="2341" started-at="2016-12-24T18:39:27Z" finished-at="2016-12-24T18:39:29Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.suchi.demo_bank.Login_Page_Test@ae45eb6]" name="teardown" is-config="true" duration-ms="2319" started-at="2016-12-24T20:37:54Z" finished-at="2016-12-24T20:37:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

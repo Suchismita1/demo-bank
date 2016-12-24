@@ -7,11 +7,14 @@ import java.io.IOException;
 
 import javax.swing.text.BadLocationException;
 
+import org.apache.commons.io.FileUtils;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
@@ -83,11 +86,10 @@ public class WebUtil {
 		sheet=workbook.getSheet(sheetName);
 	
 		int rowcount=sheet.getPhysicalNumberOfRows();
-		//int rowcount = sheet.getLastRowNum();
 		System.out.println(rowcount);
 		int columncount=sheet.getRow(0).getPhysicalNumberOfCells();
 		System.out.println(columncount);
-		dataArray= new String[rowcount][columncount];
+		dataArray= new String[rowcount-2][columncount];
 		
 		int ci = 0;
 		
@@ -108,6 +110,12 @@ public class WebUtil {
 		}
 		
 		return dataArray;
+	}
+
+	public static void getScreenShot(WebDriver driver) throws IOException {
+		File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		FileUtils.copyFile(scrFile, new File("C:\\Users\\Suchi\\workspace\\demo-bank\\screenshot\\screenshot.png"));
+		
 	}
 	
 	
